@@ -25,6 +25,8 @@ unset($_SESSION['form_data']);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log-in</title>
+    <link rel="stylesheet" type="text/css" href="login.css" />
+
 </head>
 <body>
     <?php if ($succes_signup): ?>
