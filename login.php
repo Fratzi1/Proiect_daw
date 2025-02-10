@@ -25,7 +25,7 @@ unset($_SESSION['form_data']);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log-in</title>
-    <link rel="stylesheet" type="text/css" href="login.css" />
+    <link rel="stylesheet" type="text/css" href="login.css?v=1.0" />
 
 </head>
 <body>
@@ -36,7 +36,7 @@ unset($_SESSION['form_data']);
         <div class="error-message"><?= htmlspecialchars($error) ?></div>
     <?php endif; ?>
     <div>
-        Log-in
+        <h2>Log-in</h2>
     </div>
     <form method="post" action="login_process.php">
         <label for="email">Email</label><br>
@@ -44,12 +44,14 @@ unset($_SESSION['form_data']);
 
         <label for="password">Password:</label><br>
         <input type="password" minlength="8" id="password" name="password" required><br>
-        <div>
-            <a href="forgot_pass.php">Forgot password</a>
-        </div>
-        <div>
-            <input type="checkbox" id="remember_me" name="remember_me"/>
-            <label for="remember_me">Remember me</label>
+        <div class="rmb">
+            <div class="rmb">
+                <label for="remember_me">Remember me</label>
+                <input type="checkbox" id="remember_me" name="remember_me"/>
+            </div>
+            <div>
+                <a href="forgot_pass.php">Forgot password</a>
+            </div>
         </div>
         <input type="submit" value="Log in">
     </form>

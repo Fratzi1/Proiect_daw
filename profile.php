@@ -155,6 +155,7 @@
         <div class="center-links">
             <a href="index.php" class="logo">Home</a>
             <a href="training_programs.php">Training Programs</a>
+            <a href="cooper_test.php">Cooper Test</a>
             <a href="about_us.php">About Us</a>
         </div>
         <div class="right-links">

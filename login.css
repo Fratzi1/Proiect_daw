@@ -5,6 +5,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -110,4 +111,11 @@ form p {
     font-size: 14px;
     margin-top: 20px;
     color: #555;
+}
+
+.rmb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
 }

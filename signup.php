@@ -19,14 +19,14 @@ unset($_SESSION['form_data']);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up</title>
-    <link rel="stylesheet" href="style.css?">
+    <link rel="stylesheet" href="signup.css?">
 </head>
 <body>
     <?php if ($error): ?>
         <div class="error-message"><?= htmlspecialchars($error) ?></div>
     <?php endif; ?>
     <div>
-        Sign-up
+        <h2>Sign-up</h2>
     </div>
     <form method="post" action="signup_process.php">
         <label for="first_name">First name</label><br>
