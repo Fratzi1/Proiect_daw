@@ -34,7 +34,7 @@
 
             <!-- div to show reCAPTCHA -->
             <div class="g-recaptcha" 
-                data-sitekey="6Led6JwqAAAAAIxzwom74o1zkP_y713qBM4xK0tc">
+                data-sitekey="6Lec6JwqAAAAAAojNEtokHRFfQO40wzB2_JuEZ-k">
             </div>
             <br>
 

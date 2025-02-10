@@ -30,7 +30,7 @@ if (isset($_POST['submit_btn'])) {
 
     // Put secret key here, which we get
     // from google console
-    $secret_key = '6Led6JwqAAAAACdd9heJ8MzyCcM1cc3-2bUp9Vzs';
+    $secret_key = '6Lec6JwqAAAAAAojNEtokHRFfQO40wzB2_JuEZ-k';
 
     // Hitting request to the URL, Google will
     // respond with success or error scenario
